@@ -1,0 +1,88 @@
+/*
+Theme Name: ClubNature Child
+Theme URI: https://www.thewpclub.com/clubnature-wordpress-theme/
+Author: Miles Angels
+Author URI: https://www.thewpclub.com
+Description: A Free WordPress Blog / Magazine / Personal / Writers / Webshop. ClubNature is a clean minimal and responsive WooCommerce WordPress theme well suited for fashion, writers, travel, health, sports, fitness, business, finance, portfolio, design, art, photography, personal or any other creative websites, blogs and webshops. Developed with bootstrap framework that makes it mobile and tablet friendly. ClubNature has the option to add your social media links. ClubNature is ready for WooCommerce. Get free support at https://ask.thewpclub.com/
+Version: 1.0.1
+Template: ClubNature
+Tested up to: 5.7
+Requires PHP: 5.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: clubnature-child
+Tags: custom-menu, custom-colors, custom-header, featured-images, translation-ready, threaded-comments, blog, e-commerce
+*/
+
+
+@import url('../clubnature/style.css');
+
+
+/* 
+
+# This will only display changes that was made from the parent theme
+
+# The numbers will be used as legends to which section in the parent theme
+    these classes will be found and what changes were made to them.
+
+*/
+
+/* ----------------------------------------------------------------------- 
+------------------------------------------------------------------------ */
+.site-title {
+    font-size: 1.65em;
+}
+/* change size and background color of small side-header element 
+that displays 1st post */
+.site-header .site-header-extra 
+ {
+    width: calc(32% + 1px);
+    height: 90px;
+    background-color: rgba(22, 91, 119, 0.5);
+    /* background-color: #8fd156; */
+}
+
+.site-header .site-header-extra .site-header-extra-info a {
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.post-item .post-categories-list li a {
+    background-color: rgba(22, 91, 119, 0.7);
+}
+
+a:hover,
+a:focus,
+.post-item .post-title h2 a:hover,
+.post-item .post-title h2 a:focus,
+.post-item .post-message a.more-link:hover,
+.post-item .post-message a.more-link:focus {
+    color: #165b77;
+}
+
+.site-header-scrolling, .site-header-name {
+    display: none;
+}
+
+.post-message, .post-item .post-date, .post-item .post-comments {
+    color:#5b5b5b;
+    font-weight: 400;
+}
+
+.post-title::after {
+    display: none;
+}
+
+.site-header .site-header-social .social-icons li a {
+    width: 3rem;
+    color: rgba(255, 255, 255, .8);
+}
+
+.fab{
+    font-size: 1.5rem;
+}
+
+
+/* .site-header-lines {
+    display: none;
+} */
