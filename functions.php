@@ -4,9 +4,10 @@
         wp_enqueue_style( 'child-style', get_stylesheet_uri() );
     }
 
-    // function mushroom_post_types() {
-    //     //create a new post type
+    // function add_files() {
+    //     add_theme_support( 'post-thumbnails' );
+
     // }
-    // add_action('init', 'mushroom_post_types');
+    // add_action('init', 'add_files');
     
 ?>

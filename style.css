@@ -86,3 +86,18 @@ a:focus,
 /* .site-header-lines {
     display: none;
 } */
+
+.post-item {
+    color: black !important;
+}
+
+.content-index:before {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 8rem;
+    left: 0;
+    background-color: #fff;
+    content: '';
+    z-index: -1;
+}
