@@ -4,10 +4,6 @@
         wp_enqueue_style( 'child-style', get_stylesheet_uri() );
     }
 
-    // function add_files() {
-    //     add_theme_support( 'post-thumbnails' );
-
-    // }
-    // add_action('init', 'add_files');
+    add_theme_support('post-thumbnails');
     
 ?>
