@@ -85,9 +85,9 @@ if ( function_exists( 'wp_body_open' ) ) {
 		<img src="<?php echo esc_url( header_image() ); ?>" class="img-fluid img-cover w-100 h-100 position-relative" >
 	<?php elseif( is_home()) :?>
 		<img src="https://themyceliumnetwork.local/wp-content/uploads/2022/05/pexels-aleksa-kalajdzic-3780917-scaled.jpg" class="img-fluid img-cover w-100 h-100 position-relative">
-	<?php elseif ( is_single() || is_page()  ) : ?>
+	<?php elseif ( is_single() || is_page() || is_archive()) : ?>
 		<?php if ( has_post_thumbnail() ) : ?>
-			<?php $backgroundimg = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'large' ); ?>
+			<?php $backgroundimg = wp_get_attachment_image_src( get_post_thumbnail_id( $page->ID ), 'large' ); ?>
 			<img src="<?php echo esc_url( $backgroundimg[0] ); ?>" class="img-fluid img-cover w-100 h-100 position-relative">
 		<?php else : ?>
 			<img src="<?php echo esc_url( header_image() ); ?>" class="img-fluid img-cover w-100 h-100 position-relative">
