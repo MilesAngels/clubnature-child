@@ -136,6 +136,7 @@ if ( function_exists( 'wp_body_open' ) ) {
 						<?php elseif ( is_404() ) : ?>
 							<h1><?php esc_html_e( 'The Page You Are Looking For Doesn&rsquo;t Exist.', 'clubnature' ); ?></h1>
 						<?php endif; ?>
+				
 					<?php endif; ?>
 					</div>
 				</div>
