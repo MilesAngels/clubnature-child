@@ -82,6 +82,9 @@ a:focus,
     font-size: 1.25rem;
 }
 
+.fas {
+    color: #457f95;
+}
 
 /* .site-header-lines {
     display: none;
@@ -121,4 +124,8 @@ a:focus,
 
 .sidebar-main h2 {
     color: #fff;
+}
+
+#submit {
+    background-color: #165b77;
 }

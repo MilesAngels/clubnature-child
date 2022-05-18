@@ -34,7 +34,7 @@ get_header(); ?>
 
 									<!--Grid column-->
 									<div class="col-md-6">
-										<div class="md-form mb-0">
+										<div class="md-form mb-2">
 											<input type="text" id="name" name="name" class="form-control">
 											<label for="name" class="">Your name</label>
 										</div>
@@ -43,7 +43,7 @@ get_header(); ?>
 
 									<!--Grid column-->
 									<div class="col-md-6">
-										<div class="md-form mb-0">
+										<div class="md-form mb-2">
 											<input type="text" id="email" name="email" class="form-control">
 											<label for="email" class="">Your email</label>
 										</div>
@@ -56,7 +56,7 @@ get_header(); ?>
 								<!--Grid row-->
 								<div class="row">
 									<div class="col-md-12">
-										<div class="md-form mb-0">
+										<div class="md-form mb-2">
 											<input type="text" id="subject" name="subject" class="form-control">
 											<label for="subject" class="">Subject</label>
 										</div>

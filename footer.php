@@ -25,28 +25,28 @@
             <div class="col-12 text-center">
                 <h5 class="site-title mb-4">The Mycelium Network</h5>
             </div>
-            <div class="col-lg-3 col-md-6 text-center">
+            <div class="col-lg-3 col-md-6 mb-2">
                 <ul class="nav navbar-nav larger-links">
                     <li><a href="<?php echo site_url('');?>">Home</a></li>
                     <li><a href="<?php echo site_url('/about-us');?>">About Us</a></li>
                     <li><a href="<?php echo site_url('/contact-us');?>">Contact Us</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-md-6 text-center">
+            <div class="col-lg-3 col-md-6 mb-2">
                 <ul class="nav navbar-nav larger-links">
                     <li><a href="<?php echo site_url('');?>">Home</a></li>
                     <li><a href="<?php echo site_url('/about-us');?>">About Us</a></li>
                     <li><a href="<?php echo site_url('/contact-us');?>">Contact Us</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-md-6 text-center">
+            <div class="col-lg-3 col-md-6 mb-2">
                 <ul class="nav navbar-nav larger-links">
                     <li><a href="<?php echo site_url('');?>">Home</a></li>
                     <li><a href="<?php echo site_url('/about-us');?>">About Us</a></li>
                     <li><a href="<?php echo site_url('/contact-us');?>">Contact Us</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-md-6 text-start border-start">
+            <div class="col-lg-3 col-md-6  mb-2 text-start border-start">
                 <ul class="nav navbar-nav larger-links">
                     <li><a href="<?php echo esc_url( get_theme_mod( 'clubnature_facebooklink' ) ); ?>" class="py-2" target="_blank"><i class="fab fa-facebook-f"></i>&emsp;themyceliumnetwork</a></li>
                     <li><a href="<?php echo esc_url( get_theme_mod( 'clubnature_twitterlink' ) ); ?>" class="py-2" target="_blank"><i class="fab fa-twitter"></i>&emsp;@themyceliumnetwork</a></li>
