@@ -201,8 +201,8 @@ if ( function_exists( 'wp_body_open' ) ) {
 	<div class="sidebar-button">
 		<a class="btn btn-sidebar text-uppercase rounded-0"><?php esc_html_e( 'Sidebar', 'clubnature' ); ?></a>
 	</div>
-	<div class="sidebar-frame position-absolute bg-white border-left">
-		<div class="sidebar-main p-3 p-sm-5">
+	<div class="sidebar-frame position-absolute bg-dark bg-gradient text-white border-left">
+		<div class="sidebar-main p-3 p-sm-5 text-white">
 			<?php get_sidebar(); ?>
 		</div>
 	</div>

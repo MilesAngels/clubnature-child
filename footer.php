@@ -25,15 +25,15 @@
             <div class="col-12 text-center">
                 <h5 class="site-title mb-4">The Mycelium Network</h5>
             </div>
-            <div class="col-6 fw-bold text-center">
-                <ul class="nav navbar-nav">
+            <div class="col-6 text-center">
+                <ul class="nav navbar-nav larger-links">
                     <li><a href="<?php echo site_url('');?>">Home</a></li>
                     <li><a href="<?php echo site_url('/about-us');?>">About Us</a></li>
                     <li><a href="<?php echo site_url('/contact-us');?>">Contact Us</a></li>
                 </ul>
             </div>
-            <div class="col-6 fw-bold text-center">
-                <ul class="nav navbar-nav">
+            <div class="col-6 text-center">
+                <ul class="nav navbar-nav larger-links">
                     <li><a href="<?php echo site_url('');?>">Home</a></li>
                     <li><a href="<?php echo site_url('/about-us');?>">About Us</a></li>
                     <li><a href="<?php echo site_url('/contact-us');?>">Contact Us</a></li>
